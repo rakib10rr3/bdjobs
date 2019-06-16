@@ -1,0 +1,200 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.android.material:material:1.1.0-alpha07] /home/rakib/.gradle/caches/transforms-2/files-2.1/ede6109024eeeb5b0630681f98c470ad/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha05] /home/rakib/.gradle/caches/transforms-2/files-2.1/c7b57dc8799326e6fd6a0a28ab68c891/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/rakib/.gradle/caches/transforms-2/files-2.1/0821bb199d17b107195d594fa6b208dc/AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton:butterknife:10.1.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/ee902abcacb21f12d1551e3a6182b59a/AndroidManifest.xml:2:1-7:12
+MERGED from [com.orhanobut:logger:2.2.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/b4f8f874f089528c7c5edbe7b09bb0e0/AndroidManifest.xml:2:1-8:12
+MERGED from [androidx.core:core-ktx:1.0.2] /home/rakib/.gradle/caches/transforms-2/files-2.1/b976d8627158ea2b9065c2a60a885f29/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/08eb7677a186a6bba01154a4f16537d8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/133f7d59a79cc1d95a63645d577ee6e7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/6bf3291678d670f309bcf1d7ecc2cb0a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /home/rakib/.gradle/caches/transforms-2/files-2.1/b1dd893af17ee80f0b1a1be54e772099/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] /home/rakib/.gradle/caches/transforms-2/files-2.1/8bfad13dbd71ce01b81e4d860b3774fe/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha05] /home/rakib/.gradle/caches/transforms-2/files-2.1/43c187b68668a23b51555e45eddf2a93/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-beta01] /home/rakib/.gradle/caches/transforms-2/files-2.1/6d17dcb9c403233376e4c1fc580aede4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-beta01] /home/rakib/.gradle/caches/transforms-2/files-2.1/d35f3bbb9efa1555c26385d94947e529/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife-runtime:10.1.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/03907d4052182fda9aa4fae377a29615/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha04] /home/rakib/.gradle/caches/transforms-2/files-2.1/8379716266ec933dd8d4f5051df539e4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0-alpha08] /home/rakib/.gradle/caches/transforms-2/files-2.1/43b9da51d2127c20e6cabb3cce7be4cb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/c7a274affd3ef1b28a4f1bc9f96debda/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/3d8abfc4f138a4a8d0de366204650b16/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/5b969d379f3d2a1507b9a60647c1f433/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/20a93f42462e6edeee7003555cfc8671/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha05] /home/rakib/.gradle/caches/transforms-2/files-2.1/5683b29d6765f8946f7f070692598dd9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/0782344c47dc69a670ac071b2ea68284/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/edc943b7b9f331c249da3b4d46eef65f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/c5e85642196ec7a9ab730e1f96d202a0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-alpha08] /home/rakib/.gradle/caches/transforms-2/files-2.1/f9d9f4c4c6bd83127d558ec8dc96b09c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-beta01] /home/rakib/.gradle/caches/transforms-2/files-2.1/d586172995442261d841e9f20fb943ea/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/3d265b25648b239248233d0710b960ec/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/dc3a065a9785c3e6288cfcae5069dc1d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/02151e928794ddc60187e95c4e61058d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/6c6ae8d656a024b6eca66aefbf05de18/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] /home/rakib/.gradle/caches/transforms-2/files-2.1/1b7300f6fb2e067b5ace682e36922212/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/9cfa5a44301f5c6b498b6099fc221254/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/b946ff7ad6c080c5e60daca2e122074a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/dfca2f9f8c630b4f5d6fd011a0630b43/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/fb7161e655ffa69c5a2a4beb84c8b3a9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-alpha01] /home/rakib/.gradle/caches/transforms-2/files-2.1/c4f83734d9c08b09f1423ebf9702bf3d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-beta01] /home/rakib/.gradle/caches/transforms-2/files-2.1/c959b473e34e394311444cf59db0e69a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-alpha01] /home/rakib/.gradle/caches/transforms-2/files-2.1/97b8e458007d8741faf72b0b2a40f319/AndroidManifest.xml:17:1-22:12
+INJECTED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:4:5-45
+		INJECTED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml
+		INJECTED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml
+		ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml
+		ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:6:22-64
+application
+ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:8:5-23:19
+MERGED from [com.google.android.material:material:1.1.0-alpha07] /home/rakib/.gradle/caches/transforms-2/files-2.1/ede6109024eeeb5b0630681f98c470ad/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha07] /home/rakib/.gradle/caches/transforms-2/files-2.1/ede6109024eeeb5b0630681f98c470ad/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/rakib/.gradle/caches/transforms-2/files-2.1/0821bb199d17b107195d594fa6b208dc/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/rakib/.gradle/caches/transforms-2/files-2.1/0821bb199d17b107195d594fa6b208dc/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0-beta01] /home/rakib/.gradle/caches/transforms-2/files-2.1/d586172995442261d841e9f20fb943ea/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.1.0-beta01] /home/rakib/.gradle/caches/transforms-2/files-2.1/d586172995442261d841e9f20fb943ea/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] /home/rakib/.gradle/caches/transforms-2/files-2.1/1b7300f6fb2e067b5ace682e36922212/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] /home/rakib/.gradle/caches/transforms-2/files-2.1/1b7300f6fb2e067b5ace682e36922212/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-beta01] /home/rakib/.gradle/caches/transforms-2/files-2.1/d586172995442261d841e9f20fb943ea/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:11:9-41
+	tools:ignore
+		ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:15:9-48
+	android:roundIcon
+		ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:14:9-40
+activity#rakibul.huda.currencyconverter.MainActivity
+ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:16:9-22:20
+	android:name
+		ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:16:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml
+INJECTED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.1.0-alpha07] /home/rakib/.gradle/caches/transforms-2/files-2.1/ede6109024eeeb5b0630681f98c470ad/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha07] /home/rakib/.gradle/caches/transforms-2/files-2.1/ede6109024eeeb5b0630681f98c470ad/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha05] /home/rakib/.gradle/caches/transforms-2/files-2.1/c7b57dc8799326e6fd6a0a28ab68c891/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha05] /home/rakib/.gradle/caches/transforms-2/files-2.1/c7b57dc8799326e6fd6a0a28ab68c891/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/rakib/.gradle/caches/transforms-2/files-2.1/0821bb199d17b107195d594fa6b208dc/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/rakib/.gradle/caches/transforms-2/files-2.1/0821bb199d17b107195d594fa6b208dc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton:butterknife:10.1.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/ee902abcacb21f12d1551e3a6182b59a/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.1.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/ee902abcacb21f12d1551e3a6182b59a/AndroidManifest.xml:5:5-44
+MERGED from [com.orhanobut:logger:2.2.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/b4f8f874f089528c7c5edbe7b09bb0e0/AndroidManifest.xml:6:5-43
+MERGED from [com.orhanobut:logger:2.2.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/b4f8f874f089528c7c5edbe7b09bb0e0/AndroidManifest.xml:6:5-43
+MERGED from [androidx.core:core-ktx:1.0.2] /home/rakib/.gradle/caches/transforms-2/files-2.1/b976d8627158ea2b9065c2a60a885f29/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] /home/rakib/.gradle/caches/transforms-2/files-2.1/b976d8627158ea2b9065c2a60a885f29/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/08eb7677a186a6bba01154a4f16537d8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/08eb7677a186a6bba01154a4f16537d8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/133f7d59a79cc1d95a63645d577ee6e7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/133f7d59a79cc1d95a63645d577ee6e7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/6bf3291678d670f309bcf1d7ecc2cb0a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/6bf3291678d670f309bcf1d7ecc2cb0a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /home/rakib/.gradle/caches/transforms-2/files-2.1/b1dd893af17ee80f0b1a1be54e772099/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /home/rakib/.gradle/caches/transforms-2/files-2.1/b1dd893af17ee80f0b1a1be54e772099/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /home/rakib/.gradle/caches/transforms-2/files-2.1/8bfad13dbd71ce01b81e4d860b3774fe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /home/rakib/.gradle/caches/transforms-2/files-2.1/8bfad13dbd71ce01b81e4d860b3774fe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha05] /home/rakib/.gradle/caches/transforms-2/files-2.1/43c187b68668a23b51555e45eddf2a93/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha05] /home/rakib/.gradle/caches/transforms-2/files-2.1/43c187b68668a23b51555e45eddf2a93/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-beta01] /home/rakib/.gradle/caches/transforms-2/files-2.1/6d17dcb9c403233376e4c1fc580aede4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-beta01] /home/rakib/.gradle/caches/transforms-2/files-2.1/6d17dcb9c403233376e4c1fc580aede4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-beta01] /home/rakib/.gradle/caches/transforms-2/files-2.1/d35f3bbb9efa1555c26385d94947e529/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-beta01] /home/rakib/.gradle/caches/transforms-2/files-2.1/d35f3bbb9efa1555c26385d94947e529/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.1.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/03907d4052182fda9aa4fae377a29615/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.1.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/03907d4052182fda9aa4fae377a29615/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha04] /home/rakib/.gradle/caches/transforms-2/files-2.1/8379716266ec933dd8d4f5051df539e4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha04] /home/rakib/.gradle/caches/transforms-2/files-2.1/8379716266ec933dd8d4f5051df539e4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha08] /home/rakib/.gradle/caches/transforms-2/files-2.1/43b9da51d2127c20e6cabb3cce7be4cb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha08] /home/rakib/.gradle/caches/transforms-2/files-2.1/43b9da51d2127c20e6cabb3cce7be4cb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/c7a274affd3ef1b28a4f1bc9f96debda/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/c7a274affd3ef1b28a4f1bc9f96debda/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/3d8abfc4f138a4a8d0de366204650b16/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/3d8abfc4f138a4a8d0de366204650b16/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/5b969d379f3d2a1507b9a60647c1f433/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/5b969d379f3d2a1507b9a60647c1f433/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/20a93f42462e6edeee7003555cfc8671/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/20a93f42462e6edeee7003555cfc8671/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha05] /home/rakib/.gradle/caches/transforms-2/files-2.1/5683b29d6765f8946f7f070692598dd9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha05] /home/rakib/.gradle/caches/transforms-2/files-2.1/5683b29d6765f8946f7f070692598dd9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/0782344c47dc69a670ac071b2ea68284/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/0782344c47dc69a670ac071b2ea68284/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/edc943b7b9f331c249da3b4d46eef65f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/edc943b7b9f331c249da3b4d46eef65f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/c5e85642196ec7a9ab730e1f96d202a0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/c5e85642196ec7a9ab730e1f96d202a0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha08] /home/rakib/.gradle/caches/transforms-2/files-2.1/f9d9f4c4c6bd83127d558ec8dc96b09c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha08] /home/rakib/.gradle/caches/transforms-2/files-2.1/f9d9f4c4c6bd83127d558ec8dc96b09c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-beta01] /home/rakib/.gradle/caches/transforms-2/files-2.1/d586172995442261d841e9f20fb943ea/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-beta01] /home/rakib/.gradle/caches/transforms-2/files-2.1/d586172995442261d841e9f20fb943ea/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/3d265b25648b239248233d0710b960ec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/3d265b25648b239248233d0710b960ec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/dc3a065a9785c3e6288cfcae5069dc1d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/dc3a065a9785c3e6288cfcae5069dc1d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/02151e928794ddc60187e95c4e61058d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/02151e928794ddc60187e95c4e61058d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/6c6ae8d656a024b6eca66aefbf05de18/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/6c6ae8d656a024b6eca66aefbf05de18/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] /home/rakib/.gradle/caches/transforms-2/files-2.1/1b7300f6fb2e067b5ace682e36922212/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] /home/rakib/.gradle/caches/transforms-2/files-2.1/1b7300f6fb2e067b5ace682e36922212/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/9cfa5a44301f5c6b498b6099fc221254/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/9cfa5a44301f5c6b498b6099fc221254/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/b946ff7ad6c080c5e60daca2e122074a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/b946ff7ad6c080c5e60daca2e122074a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/dfca2f9f8c630b4f5d6fd011a0630b43/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/dfca2f9f8c630b4f5d6fd011a0630b43/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/fb7161e655ffa69c5a2a4beb84c8b3a9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/rakib/.gradle/caches/transforms-2/files-2.1/fb7161e655ffa69c5a2a4beb84c8b3a9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-alpha01] /home/rakib/.gradle/caches/transforms-2/files-2.1/c4f83734d9c08b09f1423ebf9702bf3d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-alpha01] /home/rakib/.gradle/caches/transforms-2/files-2.1/c4f83734d9c08b09f1423ebf9702bf3d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-beta01] /home/rakib/.gradle/caches/transforms-2/files-2.1/c959b473e34e394311444cf59db0e69a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-beta01] /home/rakib/.gradle/caches/transforms-2/files-2.1/c959b473e34e394311444cf59db0e69a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-alpha01] /home/rakib/.gradle/caches/transforms-2/files-2.1/97b8e458007d8741faf72b0b2a40f319/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-alpha01] /home/rakib/.gradle/caches/transforms-2/files-2.1/97b8e458007d8741faf72b0b2a40f319/AndroidManifest.xml:20:5-44
+INJECTED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml
+INJECTED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml
+		ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml
+		INJECTED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml
+		ADDED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml
+		INJECTED from /mnt/SourceCode/android/CurrencyConverter/app/src/main/AndroidManifest.xml

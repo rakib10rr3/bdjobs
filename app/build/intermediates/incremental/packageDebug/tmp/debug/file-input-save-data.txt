@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sun Jun 16 22:08:01 BDT 2019
+0.baseType=DIRECTORY
+0.base=/mnt/SourceCode/android/CurrencyConverter/app/build/intermediates/transforms/dexMerger/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1
