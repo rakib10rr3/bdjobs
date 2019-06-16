@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/tv_app_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="32dp"
+            android:gravity="center"
+            android:text="EU CURRENCY CONVERTER"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_label_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Country Name:"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_app_title" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_countries"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:hint="Select Country"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_label_country"
+            app:layout_constraintLeft_toRightOf="@+id/tv_label_country"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_label_country">
+
+            <AutoCompleteTextView
+                android:id="@+id/actv_countries"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_currency"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Currency Amount (Euro)"
+            app:layout_constraintTop_toBottomOf="@+id/til_countries">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tiet_currency_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tv_label_vat_rates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Vat rates:"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@+id/til_currency" />
+
+        <RadioGroup
+            android:id="@+id/rdogrp_vat_rates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/first"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/tv_label_vat_rates">
+
+            <RadioButton
+                android:id="@+id/rdobtn_super_reduced"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Super Reduced" />
+
+            <RadioButton
+                android:id="@+id/rdobtn_reduced"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reduced" />
+
+            <RadioButton
+                android:id="@+id/rdobtn_reduced_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reduced 1" />
+
+            <RadioButton
+                android:id="@+id/rdobtn_reduced_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reduced 2" />
+
+            <RadioButton
+                android:id="@+id/rdobtn_standard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Standard" />
+
+            <RadioButton
+                android:id="@+id/rdobtn_parking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parking" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tv_label_original_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Original Amount ="
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rdogrp_vat_rates" />
+
+        <TextView
+            android:id="@+id/tv_original_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="0.0"
+            app:layout_constraintLeft_toRightOf="@+id/tv_label_original_amount"
+            app:layout_constraintTop_toTopOf="@+id/tv_label_original_amount"
+            tools:text="100.0" />
+
+        <TextView
+            android:id="@+id/tv_label_tax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tex = "
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_label_original_amount" />
+
+        <TextView
+            android:id="@+id/tv_tax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.0"
+            app:layout_constraintStart_toStartOf="@+id/tv_original_amount"
+            app:layout_constraintTop_toBottomOf="@+id/tv_original_amount"
+            tools:text="4.8" />
+
+        <TextView
+            android:id="@+id/tv_label_addition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(+)"
+            app:layout_constraintTop_toBottomOf="@+id/tv_label_tax" />
+
+        <View
+            android:id="@+id/v_divider_1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:background="#ddd"
+            app:layout_constraintTop_toBottomOf="@+id/tv_label_addition" />
+
+        <TextView
+            android:id="@+id/tv_label_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Total ="
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/v_divider_1" />
+
+        <TextView
+            android:id="@+id/tv_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.0"
+            app:layout_constraintStart_toStartOf="@+id/tv_original_amount"
+            app:layout_constraintTop_toTopOf="@+id/tv_label_total"
+            tools:text="124.8" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="NB: This calculation is based on data fetched from jsonvat.com"
+            app:layout_constraintTop_toBottomOf="@+id/tv_total" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
